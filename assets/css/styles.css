@@ -10,7 +10,8 @@ html {
 body {
 	margin: 1rem;
 	background-color: black;
-	color: whitesmoke;
+	color: rgb(194, 229, 255);
+	text-shadow: 2px 2px 7px rgb(125, 138, 238);
 	font-size: 5rem;
 	overflow: hidden;
 	background: url("../img/tranquil.gif");
