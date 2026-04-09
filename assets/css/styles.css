@@ -19,12 +19,17 @@ body {
 	background-size: cover;
 	transition-property: transform;
 	transition-duration: 3s;
+	transition: transform 1s ease-in-out
 }
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
+}
+.grid-container div {
+   transition:  2s cubic-bezier(0.25, 1, 0.5, 1);
+   transition: transform 2s ease;
 }
 .last {
 	padding-bottom: 2rem;

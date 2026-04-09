@@ -2,7 +2,7 @@
 let divs = document.querySelectorAll(".grid-container div");
 
 document.addEventListener("click", function() {
-    let rotation = randomNumber(10, 40);
+    let rotation = randomNumber(10, 200);
     document.body.style.transform = `rotate(${rotation}deg)`;
     randomize();
 });
